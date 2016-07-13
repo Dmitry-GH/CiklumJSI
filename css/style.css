@@ -1,3 +1,6 @@
+body{
+	background-color: #323a45;
+}
 /*navbar section*/
 	.navbar{
 		margin-bottom: 0px;
@@ -132,9 +135,6 @@
 	.inside>h2>strong{
 		color: #f8822b;
 	}
-	.container-fluid{
-		background-color: #323a45;
-	}
 /*form section end*/
 
 /*pre-footer section*/
@@ -191,4 +191,35 @@
 	}
 /*pre-footer section end*/
 
-
+/*footer section*/
+	.footer{
+		margin: 25% 10% 3% 10%;
+	}
+	.footer a{
+		color: #fff;
+		text-decoration: none;
+	}
+	.footer h4{
+		color: #fff;
+	}
+	.links{
+		float: right;
+	}
+	.links a{
+		border-right: 1px solid #d6d6d6;
+	    margin-right: 3px;
+	    padding-right: 7px;
+	    white-space: nowrap;
+	}
+	.links>a:last-of-type{
+		border: none;
+	}
+	.copyright{
+		color: #fff;
+    	float: left;
+    	margin-right: 40px;
+	}
+	hr{
+		margin-bottom: 10px;
+	}
+/*footer section end*/
