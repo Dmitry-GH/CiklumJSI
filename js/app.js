@@ -12,7 +12,4 @@ $(document).ready(function(){
   $('.dropdown').on('hide.bs.dropdown', function(e){
     $(this).find('.dropdown-menu').stop(true, true).slideUp(0);
   });
-
-
-
 });

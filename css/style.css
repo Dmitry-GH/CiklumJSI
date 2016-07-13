@@ -1,128 +1,194 @@
-.navbar{
-	margin-bottom: 0px;
-}
-.dropdown-menu{
-	-webkit-box-shadow: none;
-    box-shadow: none;
-    border-radius: 0px;
-    background-color: #f2f2f2;
-}
-.dropdown-submenu {
-    position: relative;
-}
-.dropdown-menu>li>a:hover {
-	background-color: #e5e5e5;
-}
-.dropdown-submenu>.dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top: -6px;
-    border-left: 0px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-    display: block;
-}
-.dropdown-submenu>a:after {
-    display: block;
-    content: " ";
-    float: right;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid;
-    border-width: 5px 0 5px 5px;
-    border-left-color: #ccc;
-    margin-top: 5px;
-    margin-right: -10px;
-}
+/*navbar section*/
+	.navbar{
+		margin-bottom: 0px;
+	}
+	.dropdown-menu{
+		-webkit-box-shadow: none;
+	    box-shadow: none;
+	    border-radius: 0px;
+	    background-color: #f2f2f2;
+	}
+	.dropdown-submenu {
+	    position: relative;
+	}
+	.dropdown-menu>li>a:hover {
+		background-color: #e5e5e5;
+	}
+	.dropdown-submenu>.dropdown-menu {
+	    top: 0;
+	    left: 100%;
+	    margin-top: -6px;
+	    border-left: 0px;
+	}
+	.dropdown-submenu:hover>.dropdown-menu {
+	    display: block;
+	}
+	.dropdown-submenu>a:after {
+	    display: block;
+	    content: " ";
+	    float: right;
+	    width: 0;
+	    height: 0;
+	    border-color: transparent;
+	    border-style: solid;
+	    border-width: 5px 0 5px 5px;
+	    border-left-color: #ccc;
+	    margin-top: 5px;
+	    margin-right: -10px;
+	}
+/*navbar section end*/
 
-.jumbotron{
-	background:url(https://pp.vk.me/c626722/v626722946/1ec11/hmova5rOwGo.jpg)no-repeat center center;
-	background-size:cover;
-	  height:70%;
-	  max-height:700px;
-	  width:100%;
-	  position:relative;
-	  margin-bottom: 0px;
-}
-.left-block{
-	width: 600px;
-	background-color: #ff7f00;
-	color: white;
-	padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 30px;
-	position: relative;
-	margin-bottom: 40px;
-}
-.left-block>p{
-	font-size: 40px;
-}
-.left-block-apply{
-	width: 350px;
-	background-color: rgba(204, 204, 204, 0.75);
-	color: white;
-	padding-top: 5px;
-    padding-left: 50px;
-	position: relative;
-}
-.left-block-apply>p{
-	font-size: 40px;
-	font-weight: bold;
-}
-.left-block-apply>a{
-	text-decoration:none;
-	color: white;
-}
-form p{
-	position: relative;
-    float: left;
-    margin: 0px 5px 10px 5px;
-    width: 280px;
-    height: 63px;
-}
-form label{
-	position: absolute;
-    top: 10px;
-    left: 0;
-    font-size: 18px;
-    color: #8a959e;
-    margin: 0px 0px 0px 50px;
-    font-weight: 400;
-}
-form i {
-	position: absolute !important;
-	top: 20px !important;
-    left: 10px !important; 
-    font-size: 25px;
-}
-.input-lg {
-	padding-left: 40px;
-	padding-right: 5px;
-	width: 100%;
-    height: 100%;
-}
-.btn-default {
-	background-color: #ff3366;
-	color: #fff;
-	width: 100%;
-	height: 100%;
-	border: 0px;
-}
-.btn-default:hover {
-		background-color: #f42156;
+/*jumbotron section*/
+	.jumbotron{
+		background:url(https://github.com/Dmitry-GH/CiklumJSI/blob/master/heroBanner.jpg?raw=true)no-repeat center center;
+		background-size:cover;
+		  height:70%;
+		  max-height:700px;
+		  width:100%;
+		  position:relative;
+		  margin-bottom: 0px;
+	}
+	.left-block{
+		width: 600px;
+		background-color: #ff7f00;
+		color: white;
+		padding-top: 8px;
+	    padding-bottom: 8px;
+	    padding-left: 30px;
+		position: relative;
+		margin-bottom: 40px;
+	}
+	.left-block>p{
+		font-size: 40px;
+	}
+	.left-block-apply{
+		width: 350px;
+		background-color: rgba(204, 204, 204, 0.75);
+		color: white;
+		padding-top: 5px;
+	    padding-left: 50px;
+		position: relative;
+	}
+	.left-block-apply>p{
+		font-size: 40px;
+		font-weight: bold;
+	}
+	.left-block-apply>a{
+		text-decoration:none;
+		color: white;
+	}
+/*jumbotron section end*/
+
+/*form section*/
+	form p{
+		position: relative;
+	    float: left;
+	    margin: 0px 5px 10px 5px;
+	    width: 280px;
+	    height: 63px;
+	}
+	form label{
+		position: absolute;
+	    top: 10px;
+	    left: 0;
+	    font-size: 18px;
+	    color: #8a959e;
+	    margin: 0px 0px 0px 50px;
+	    font-weight: 400;
+	}
+	form i {
+		position: absolute !important;
+		top: 20px !important;
+	    left: 10px !important; 
+	    font-size: 25px;
+	}
+	.input-lg {
+		padding-left: 40px;
+		padding-right: 5px;
+		width: 100%;
+	    height: 100%;
+	}
+	.btn-default {
+		background-color: #ff3366;
+		color: #fff;
+		width: 100%;
+		height: 100%;
+		border: 0px;
+	}
+	.btn-default:hover {
+			background-color: #f42156;
+			color: #fff;
+		}
+	.inside {
+		padding-top: 50px;
+		padding-bottom: 145px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}	
+	.inside>h2{
+		padding: 0% 0% 5% 8%;
 		color: #fff;
 	}
-.inside {
-	padding-top: 145px;
-	padding-bottom: 145px;
-	padding-left: 20px;
-	padding-right: 20px;
-}	
-.inside>h2{
-	padding: 0% 0% 5% 8%;
-	color: #fff;
-}
-.container-fluid{
-	background-color: #323a45;
-}
+	.inside>h2>strong{
+		color: #f8822b;
+	}
+	.container-fluid{
+		background-color: #323a45;
+	}
+/*form section end*/
+
+/*pre-footer section*/
+	.pre-footer {
+	    background: #fff;
+	    padding-bottom: 0;
+	}
+	.img-block {
+	    list-style: none;
+	    margin: 0;
+	    max-width: none;
+	    min-width: 0;
+	    padding: 0;
+	}
+	.card {
+	    background: #282828;
+	    height: 300px;
+	    overflow: hidden;
+	    position: relative;
+	    width: 100%;
+	}
+	@media screen and (min-width: 767px){
+	.card {
+	    float: left;
+	    width: 33.33333333%;
+	}}
+
+	.text {
+	    box-sizing: border-box;
+	    padding: 0 20%;
+	    position: absolute;
+	    top: 50%;
+	    transform: translate(0, -50%);
+	    width: 100%;
+	    color: #fff;
+	}
+	.text>h1>strong{
+		color: #f8822b;
+	}
+
+	.pict {
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 300px;
+	    opacity: .3;
+	    text-align: center;
+	    transition: transform .3s, opacity .3s;
+	    width: 100%;
+	}
+	.card:hover 
+	.pict{
+		opacity:.8;transform:scale(1.1, 1.1)
+	}
+/*pre-footer section end*/
+
+
