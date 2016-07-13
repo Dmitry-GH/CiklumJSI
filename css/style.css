@@ -40,7 +40,7 @@
 
 /*jumbotron section*/
 	.jumbotron{
-		background:url(https://github.com/Dmitry-GH/CiklumJSI/blob/master/heroBanner.jpg?raw=true)no-repeat center center;
+		background:url(https://github.com/Dmitry-GH/CiklumJSI/blob/master/img/heroBanner.jpg)no-repeat center center;
 		background-size:cover;
 		  height:70%;
 		  max-height:700px;
