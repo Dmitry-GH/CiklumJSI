@@ -127,9 +127,16 @@ body{
 	.inside {
 		padding-top: 50px;
 		padding-bottom: 145px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}	
+		margin: auto;
+		width: 55%;
+	}
+	@media screen and (min-width: 1200px){
+	.inside {
+		padding-top: 50px;
+		padding-bottom: 145px;
+		margin: auto;
+		width: 1200px;
+	}}	
 	.inside>h2{
 		padding: 0% 0% 5% 8%;
 		color: #fff;
